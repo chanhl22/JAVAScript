@@ -6,7 +6,7 @@ function Person(name, first, second, third) {
 
 Person.prototype.sum = function () {
     return this.first + this.second;
-}
+};
 
 var kim = new Person('kim', 10, 20);
 var lee = new Person('lee', 10, 10);
